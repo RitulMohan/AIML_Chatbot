@@ -22,22 +22,22 @@ This is a part of the *CS F407 Artificial Intelligence* Course at BITS Pilani Hy
 - The messenger bot uses a knowledge base with multiple random responses exchanged between the user and the bot. 
 - The bot is able to give replies to multiple interactions and stores the conversations in a  database. These persistent copies of the interactions can be retrieved the next time user chats with the  bot.
 - The bot interacts with web services and helps the user decide the course to be taken based on the recent trends in the industry or the recent trending jobs.
--  The bot  recommends a subject based on domain of interest or based on the professor in whose class he/she is interested in. 
 - The bot can tell the current weather by interacting with a web API.
-- **No machine learning is used and the whole project is based on keyword matching and intent recognition.**
+- **the whole project is based on keyword matching and intent recognition.**
 
 
 
 ## Architecture
-A corpus of professors and courses is stored in the MySQL database. Artificial Intelligence Markup Language (AIML) is used for creating the core of the chatbot. The frontend is developed using Android and backend using Python. 
+Artificial Intelligence Markup Language (AIML) is used for creating the core of the chatbot. The frontend is developed using Android and backend using Python. 
 The back end is in Python and front end is created using Android.
-The app has been tested locally on Android emulator(in Android Studio) and not on an Android Phone.
+The app has been tested locally on Android Studio and not on an Android Phone.
 
-The database information is stored in MySQL database on a  local machine. For viewing and updating databases, *mySQL.txt* contains the appropriate code.
+The database information is stored in MySQL database on a  local machine. For viewing and updating databases, contains the appropriate code.
 
 
 
-A database named *user_chats* should be created in the *mysql* system first.2 tables named *chats* and *faculty* are used for persistent storage.
+A database named *user_chats* should be created in the *mysql* system first.
+2 tables named *chats* and *faculty* are used for persistent storage.
 
 The *chats* table stores the timestamp,userid, bot query and bot response in that order.
 
