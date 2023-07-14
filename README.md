@@ -42,13 +42,11 @@ A database named *user_chats* should be created in the *mysql* system first.
 The *chats* table stores the timestamp,userid, bot query and bot response in that order.
 
 
-The *faculty* table stores the name of the faculty along with the courses taught.
-
 ## Setup
 
 Before starting ensure that you have *mysql* on your machine.
 - Create a database named *user_chats*
-- Create two tables namely *chats* & *faculty*
+- Create table namely *chats* 
 - Change the username and the password in the python files *app* & *conversation*
 
 
@@ -60,7 +58,7 @@ The backend server can be run simply via
 ```bash
 $ python app.py 
 ```
-(*Python v2.7 was used at the time of development*)
+(*Python v3.9 was used for development*)
 
 
 
@@ -70,11 +68,6 @@ The front end Android part can be run in *Android Studio*.
 - Set up *Android Studio*,and install an emulator for testing/running the app.
 - Open the *MyApplication* folder in Android Studio.
 - Press the Play button to run the app. 
-- This code was run on **Nexus S API 28** device at the time of development.
+- This code was run on **Pixel 3A** device.
 
-
-## References
-
- - [For Android front end
-   ](https://medium.com/@harivigneshjayapalan/android-baking-a-simple-chatbot-in-30-minutes-aiml-ff43c3269025)
 
