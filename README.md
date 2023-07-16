@@ -52,7 +52,7 @@ Before starting ensure that you have *mysql* on your machine.
 
 	
 
-The backend server has to be run first,on port 8000.
+The backend server has to be run first on port 8000.
 
 The backend server can be run simply via 
 ```bash
