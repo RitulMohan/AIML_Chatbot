@@ -44,7 +44,7 @@ A database named *user_chats* should be created in the *mysql* system first.
 2 tables named *chats* and *faculty* are used for persistent storage.
 
 The *chats* table stores the timestamp,userid, bot query and bot response in that order.
-Basic commands required to create/navigate through the db have been provided in a seperate file 
+Basic commands required to create/navigate through the db have been provided in a seperate file "mysql.txt"
 
 ## Setup
 
@@ -55,7 +55,10 @@ Before starting ensure that you have *mysql* on your machine.
 
 
 	
-
+Make sure to install the dependecies 
+```bash
+pip install AIML 
+```
 The backend server has to be run first on port 8000.
 
 The backend server can be run simply via 
@@ -64,9 +67,11 @@ $ python app.py
 ```
 (*Python v3.9 was used for development*)
 
-
-
-
+make sure to update the python time library, there is a common issue while using 
+```bash
+time.clock()
+```
+with the AIML library
 
 The front end Android part can be run in *Android Studio*.
 - Set up *Android Studio*,and install an emulator for testing/running the app.
