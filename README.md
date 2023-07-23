@@ -12,7 +12,8 @@
 
 ## Demo
 ![Application demo](media/demo.gif)
-<img width="263" alt="Pasted Graphic 12" src="https://github.com/RitulMohan/AIML_Chatbot/assets/79750424/e9880298-acdc-441a-972b-b82127b1132e">
+<img width="265" alt="image" src="https://github.com/RitulMohan/AIML_Chatbot/assets/79750424/a0296537-c634-493d-9860-bfecbdb1bf7e">
+
 <img width="281" alt="Pasted Graphic 13" src="https://github.com/RitulMohan/AIML_Chatbot/assets/79750424/f829bc52-0cd3-40ce-90b6-ba7df1404529">
 
 
