@@ -25,7 +25,7 @@ This is a part of the *CS F407 Artificial Intelligence* Course at BITS Pilani Hy
 - AIML is used for the core of the chatbot.
 - The messenger bot uses a knowledge base with multiple random responses exchanged between the user and the bot. 
 - The bot is able to give replies to multiple interactions and stores the conversations in a  database. These persistent copies of the interactions can be retrieved the next time user chats with the  bot.
-- The bot interacts with web services and helps the user decide the course to be taken based on the recent trends in the industry or the recent trending jobs.
+- The bot interacts with web services and recommends students healthy food options by web scraping.
 - The bot can tell the current weather by interacting with a web API.
 - **the whole project is based on keyword matching and intent recognition.**
 
