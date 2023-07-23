@@ -44,7 +44,7 @@ A database named *user_chats* should be created in the *mysql* system first.
 2 tables named *chats* and *faculty* are used for persistent storage.
 
 The *chats* table stores the timestamp,userid, bot query and bot response in that order.
-
+Basic commands required to create/navigate through the db have been provided in a seperate file 
 
 ## Setup
 
