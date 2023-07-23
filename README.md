@@ -57,7 +57,9 @@ Before starting ensure that you have *mysql* on your machine.
 	
 Make sure to install the dependecies 
 ```bash
-pip install AIML 
+pip install AIML
+pip install bs4
+pip install urllib2
 ```
 The backend server has to be run first on port 8000.
 
