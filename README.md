@@ -74,7 +74,8 @@ make sure to update the python time library, there is a common issue while using
 time.clock()
 ```
 with the AIML library
-FIX Available here: [https://stackoverflow.com/questions/58569361/attributeerror-module-time-has-no-attribute-clock-in-python-3-8](url)
+FIX Available here: 
+[https://stackoverflow.com/questions/58569361/attributeerror-module-time-has-no-attribute-clock-in-python-3-8](url)
 
 The front end Android part can be run in *Android Studio*.
 - Set up *Android Studio*,and install an emulator for testing/running the app.
