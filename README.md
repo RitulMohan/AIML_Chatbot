@@ -61,14 +61,6 @@ pip install AIML
 pip install bs4
 pip install urllib2
 ```
-The backend server has to be run first on port 8000.
-
-The backend server can be run simply via 
-```bash
-$ python app.py 
-```
-(*Python v3.9 was used for development*)
-
 make sure to update the python time library, there is a common issue while using 
 ```bash
 time.clock()
@@ -77,6 +69,15 @@ with the AIML library
 FIX Available here: 
 
 [https://stackoverflow.com/questions/58569361/attributeerror-module-time-has-no-attribute-clock-in-python-3-8](url)
+The backend server has to be run first on port 8000.
+
+The backend server can be run simply via 
+```bash
+$ python app.py 
+```
+(*Python v3.9 was used for development*)
+<img width="863" alt="Pasted Graphic 1" src="https://github.com/RitulMohan/AIML_Chatbot/assets/79750424/d61681c4-4e43-4578-b351-7bec9b4babc5">
+
 
 The front end Android part can be run in *Android Studio*.
 - Set up *Android Studio*,and install an emulator for testing/running the app.
